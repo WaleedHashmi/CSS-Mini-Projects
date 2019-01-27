@@ -1,0 +1,143 @@
+body {
+    background-color: #000; 
+    color: #fff;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 5vh
+}
+
+a {
+    color: #fb2499;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+a:hover {
+    color: #fff;
+    transition: 0.25s;
+}
+
+
+
+.container {
+    padding: 10vw;
+    margin: auto;
+
+}
+
+
+.dark-form {
+    
+}
+
+.textbox-dark {
+    width: 80vw;
+    height: 50px;
+    background-color: #000;
+    border: 2px #fb2499 solid;
+    color: #fb2499;
+    font-size: 30px;
+    font-family: 'Major Mono Display', monospace;
+    text-transform: lowercase;
+    padding: 0 30px;
+    transition: 1s;
+    cursor:default;
+
+}
+
+.textbox-dark:hover {
+    border: 2px #fff solid;
+    transition: 1s;
+    color: #fff;
+}
+
+
+.textbox-dark:focus {
+    border: 2px #fb2499 solid;
+    transition: 1s;
+
+}
+
+input[type=radio],
+input[type=checkbox] {
+display: none;
+}
+
+/*
+.checkbox-dark{
+    margin-top: 20px;
+    -webkit-appearance: none; 
+    border: 2px solid #fb2499;
+    height: 50px;
+    width: 50px;
+    color: #000;
+    background-color: #fb2499;   
+}
+
+.checkbox-dark:active, .checkbox-dark:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.checkbox-dark:checked {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}
+*/
+
+radio label:before {
+border-radius: 8px;
+}
+checkbox label:before {
+border-radius: 3px;
+}
+
+input[type=radio]:checked {
+content: "\2022";
+color: #f3f3f3;
+font-size: 30px;
+text-align: center;
+line-height: 18px;
+}
+
+input[type=checkbox]:checked {
+content: "\2713";
+text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+font-size: 15px;
+color: #f3f3f3;
+text-align: center;
+line-height: 15px;
+}
+
+.button-dark {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    padding: 0 10px;
+    background-color: #fb2499;
+    border: 0px; 
+    font-size: 20px;
+    font-family: 'Major Mono Display', monospace;
+    color: #fff;  
+    transition: 1s;
+}
+
+.button-dark:hover {
+    animation: fill_from_right
+}
+
